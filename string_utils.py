@@ -7,8 +7,6 @@ def split_before_each_uppercases(formula):
             start = end
     result.append(formula[start:])
     return result
-
-
 def split_at_digit(formula):
     digit_location = 1
     for char in formula[1:]:
